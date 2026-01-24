@@ -12,5 +12,4 @@ public class Team {
             p.act();
         }
     }
-
 }

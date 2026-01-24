@@ -1,7 +1,7 @@
 public class NameMaker {
 
     static String makeName(String name) {
-        if(name.length()>0){
+        if(!name.isEmpty()){
             StringBuilder sb = new StringBuilder();
             String nameFirstLetter = name.substring(0,1).toUpperCase();
             String nameRest = name.substring(1).toLowerCase();

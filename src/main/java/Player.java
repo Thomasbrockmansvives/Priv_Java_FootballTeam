@@ -1,13 +1,11 @@
-import java.util.Locale;
-
 abstract class Player implements Actionable{
-    private String firstName;
-    private String secondName;
+    final String firstName;
+    final String secondName;
     private int age;
-    private String colorEyes;
-    private String colorHair;
+    final String colorEyes;
+    final String colorHair;
     protected String position;
-    private String nationality;
+    final String nationality;
 
     public Player(String firstName, String secondName, int age, String nationality, String colorEyes, String colorHair) {
 
